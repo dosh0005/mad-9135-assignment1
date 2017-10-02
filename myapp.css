@@ -1,0 +1,91 @@
+.header,
+.nav-menu,
+.price {
+    font-family: Arial, sans-serif
+}
+
+ul {
+    list-style: none
+}
+
+h2 {
+    font-size: 1.1em;
+    display: inline-block
+}
+
+.footer {
+    font-size: .5em;
+    color: #d3d3d3
+}
+
+.nav-menu,
+.nav-menu a:visited,
+a:link {
+    color: #fff8dc
+}
+
+.header {
+    font-size: 1.4em;
+    text-align: center
+}
+
+.price {
+    float: right;
+    font-style: italic;
+    margin: 14px 20px
+}
+
+.footer:first-of-type {
+    margin-top: 200px
+}
+
+.gluten_free:after {
+    font-size: .5em;
+    content: "** Gluten-free";
+    vertical-align: super;
+    margin-left: 15px
+}
+
+form {
+    padding: 8px 24px
+}
+
+form>button,
+form>input,
+form>textarea {
+    display: block;
+    width: 240px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+    background: 0 0;
+    box-shadow: none
+}
+
+.nav-menu {
+    list-style-type: none;
+    font-size: 1.2em;
+    background-color: #8b0000;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.nav-menu li {
+    display: inline-block;
+    width: 50%;
+    text-align: center
+}
+
+.menu-item-link a,
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none
+}
+
+.menu-item-link a:hover {
+    text-decoration: underline
+}
