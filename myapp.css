@@ -5,17 +5,32 @@
 }
 
 ul {
-    list-style: none
+    margin:0;
+    padding:0;
+    list-style:none
 }
 
-h2 {
-    font-size: 1.1em;
-    display: inline-block
+h1 {
+    font-size: 2.1em;
+    display: block;
+    text-align:center;
 }
 
-.footer {
-    font-size: .5em;
-    color: #d3d3d3
+.StudentList li{
+    border: 1px black solid;
+    padding:15px;
+    margin-bottom:5px;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+p {
+    font-size:1.1rem;
+    text-align:center;
+}
+p .title{
+    font-size:1.3rem;
+    font-weight:600;
 }
 
 .nav-menu,
@@ -24,44 +39,43 @@ a:link {
     color: #fff8dc
 }
 
-.header {
-    font-size: 1.4em;
-    text-align: center
+.form-content {
+    text-align:center;
+    display: block;
+    margin: auto;
+    padding: 25px;
 }
 
-.price {
-    float: right;
-    font-style: italic;
-    margin: 14px 20px
+.div-form{
+    margin: 0 40%;
 }
 
-.footer:first-of-type {
-    margin-top: 200px
-}
-
-.gluten_free:after {
-    font-size: .5em;
-    content: "** Gluten-free";
-    vertical-align: super;
-    margin-left: 15px
-}
-
-form {
-    padding: 8px 24px
+.div-form.item-count{
+    font-size:20px;
+    margin-bottom:10px;
 }
 
 form>button,
 form>input,
 form>textarea {
     display: block;
-    width: 240px;
-    padding: 4px 8px;
+    width: 100%;
+    padding: 5px 8px;
     margin-bottom: 8px;
     border-radius: 3px;
     border: 1px solid #888;
-    font-size: 14px;
+    font-size: 15px;
     background: 0 0;
-    box-shadow: none
+    box-shadow: none;
+    text-align:center;
+}
+
+form>button{
+    margin:0 3%;
+    padding:10px;
+    width:100%;
+    background:burlywood;
+    color:white;
 }
 
 .nav-menu {
